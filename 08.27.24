@@ -30,7 +30,7 @@ print(dic1["key1"])
 
 for item in l3:
 
-print(item)
+  print(item)
 
 #print(l2[1])
 
