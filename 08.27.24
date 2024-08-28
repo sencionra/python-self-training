@@ -1,0 +1,51 @@
+# lista de helados, tres sabores
+
+helados_sabores = ("fresa", "uva", "coco")
+helados_sabores2 = ["fresa", "uva", "coco"]
+#esta es otra lista, pero una lista que puede tener duplicados y ser modificada.
+#esto es una lista, pero no exactamente como la que pedi, pero funciona.
+#esto es llamado un tuple. Esto es una lista que no puede ser modificada y que no puede contener duplicados.
+
+print(helados_sabores)
+
+#mira lo que pasa si le agregamos un duplicado a tu lista
+#helados_sabores = ("fresa", "uva", "coco", "coco")
+
+# una lista con tres listas y vacias
+
+l3 = [[], [], []]
+
+print(l3)
+
+#cada lista con dos sabores
+l3 = [["coco" , "fresa"], ["pistacho" , "chocolate"], ["mango" , "chinola"]]
+l2 = ["hello", "world"]
+dic1 = {
+"key1": "something",
+"key2": "something else",
+"key3": "something else too"
+}
+
+print(dic1["key1"])
+
+for item in l3:
+
+print(item)
+
+#print(l2[1])
+
+#[0[0, 1], 1[0, 1], 2[0, 1]]
+
+l4 = "azul rojo amarillo verde morado".split()
+
+l4 = ["azul rojo".split(), "amarillo verde".split(), "morado rosado".split()]
+
+print(l4)
+
+dic2 = {
+"color1": "#a82d41FF",
+"color2": "#a82d41FF",
+"color3": "#a82d41FF"
+}
+
+print(dic1)
