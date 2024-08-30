@@ -1,6 +1,14 @@
-# statements:
+# understading statements:
 apples = 8 
 current_apples = 2 
+
+# pass keyword use:
+if current_apples == 8:
+    pass
+else:
+    print("current apples is not 8!") 
+
+# Branching statement that evaluates to either True or False: 
 
 if current_apples == 8:
     print("current apples is 8!")
@@ -9,4 +17,39 @@ else:
     
 # whatIsThis = current_apples == 8 
 # print(whatIsThis)
+
+
+
+# evaluate other options:
+
+if current_apples == 8:
+    print("current apples is 8!")
+elif current_apples == 5:
+    print("current apples is 5")
+else:
+    print("current apples is not 8!")    
+    
+whatIsThis = current_apples == 8 
+print(whatIsThis)
+
+
+
+# defining a function: write command lines first followed by function description
+
+def tell_us_about_the_fruits(count):
+    
+    if count == 8:
+        print("current apples is 8!")
+    elif count == 5:
+        print("current apples is 5")
+    else:
+        print("current apples is unknown!")  
+        
+tell_us_about_the_fruits(current_apples)
+
+
+
+
+ 
+
 
