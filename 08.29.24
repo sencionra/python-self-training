@@ -1,0 +1,12 @@
+# statements:
+apples = 8 
+current_apples = 2 
+
+if current_apples == 8:
+    print("current apples is 8!")
+else:
+    print("current apples is not 8!")    
+    
+# whatIsThis = current_apples == 8 
+# print(whatIsThis)
+
